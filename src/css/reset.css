@@ -33,3 +33,23 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+ul {
+  list-style-type: none;
+}
+
+.gallery {
+  width: 1440px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 24px 0;
+  justify-content: center;
+  gap: 24px;
+}
+.gallery-image {
+  transition: transform 250ms ease;
+}
+
+.gallery-image:hover {
+  transform: scale(1.04);
+}
