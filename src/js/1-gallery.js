@@ -88,7 +88,7 @@ const gallery = new SimpleLightbox('.gallery a', {
   captionType: 'alt',
 });
 
-gallery.on('shown.simplelightbox', function (event) {
+// gallery.on('shown.simplelightbox', function (event) {
 //   const imageJS = event.target;
 //   const captionHTML = `
 //     <div class="image-caption">alt</div>
