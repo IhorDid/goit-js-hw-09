@@ -1,4 +1,11 @@
 /* Reset styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 h1,
 h2,
 h3,
@@ -80,12 +87,20 @@ input {
   height: 40px;
   border-radius: 4px;
   border: 1px solid #808080;
+  padding: 8px 0 8px 16px;
+}
+
+input:hover,
+textarea:hover {
+  border-color: #000;
 }
 
 textarea {
   height: 80px;
   border-radius: 4px;
   border: 1px solid #808080;
+  padding: 8px 0 8px 16px;
+  resize: none;
 }
 
 button {
@@ -101,4 +116,14 @@ button {
   border: none;
   color: #fff;
   font-weight: 500;
+}
+
+button:hover {
+  background: #6c8cff;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border: 1px solid #808080;
 }
