@@ -85,14 +85,5 @@ const galleryImages = images
 galleryList.innerHTML = galleryImages;
 const gallery = new SimpleLightbox('.gallery a', {
   captionDelay: 250,
-  captionType: 'alt',
+  captionsData: 'alt',
 });
-
-// gallery.on('shown.simplelightbox', function (event) {
-//   const imageJS = event.target;
-//   const captionHTML = `
-//     <div class="image-caption">alt</div>
-//   `;
-//   // Вставити підпис під зображенням
-//   imageJS.insertAdjacentHTML('afterend', captionHTML);
-// });
